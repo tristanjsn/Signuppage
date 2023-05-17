@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(to right top, #8b1874, #931775, #9c1675, #a41575, #ac1475, #bb1a71, #c9236b, #d52e66, #e5475a, #f0614f, #f67b46, #f79540);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 99.5vh;
+}
+
+.signup-container {
+
+    background-color: white;
+    width: 1000px;
+	height: 600px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    margin: 40px auto;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    outline: none;
+    transition: border-color 0.3s ease;
+    display: block;
+    text-align: left;
+}
+  
+  input:focus {
+    border-color: #8b1874;
+}
+
+.button-style {
+    background-image: linear-gradient(to right top, #8b1874, #931775, #9c1675, #a41575, #ac1475, #bb1a71, #c9236b, #d52e66, #e5475a, #f0614f, #f67b46, #f79540);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
